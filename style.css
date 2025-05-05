@@ -1,0 +1,28 @@
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  .card-img-top {
+    height: 180px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  .card-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  .modal-content {
+    background: none;
+    border: none;
+  }
+  .modal-body img {
+    max-height: 80vh;
+    width: auto;
+  }
